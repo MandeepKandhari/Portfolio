@@ -9,10 +9,10 @@ const Work=()=>{
 			<h1 className='tc f1-l pa3-l ma3-l'>Work</h1>
 			<div className='flex flex-wrap justify-around card-col'>
 			<div className='flex flex-column items-center ma1-l ma2 pa2 shadow-5 grow card bw2 br3 w-30-l w-80 ba b--black'>
-				<div className='h4 mb1'>
+				<div className='h4 mb2'>
 				<img className='br-2' src={ECommerce}
-				 alt='web-Design-Development' width={150} height={150} />
-				}
+				 alt='web-Design-Development' width={150} height={250} />
+				
 			</div>
 			<div>
 				<h3>Voice Controlled E-Commerce Web Application</h3>
@@ -21,20 +21,19 @@ const Work=()=>{
 			</div>
 			
 			<div className='flex flex-column items-center ma1-l ma2 pa2 shadow-5 card grow bw2 br3 w-30-l w-80 ba b--black'>
-				<div className='h4 mb1'>
+				<div className='h4 mb2'>
 					<img className='br-2' src={Facedetection} 
-					alt='Data Analytics' width={150} height={150} />
+					alt='Data Analytics' width={150} height={250} />
 				</div>
 				<div>
 					<h3>Face Detection Web Application</h3>
-					<p className='tj'>face recognition web application that accepts image URLs as input, displays the images, and detects the human faces. 
-					A machine learning API “Clarifai” has been incorporated into the application, that is trained to detect human faces.</p>
+					<p className='tj'>face recognition web application that accepts image URLs as input, displays the images, and detects the human faces. A machine learning API “Clarifai” has been incorporated into the application, that is trained to detect human faces.</p>
 				</div>
 			</div>
 			<div className='flex flex-column items-center ma1-l ma2 pa2 shadow-5 grow card bw2 br3 w-30-l w-80 ba b--black'>
-				<div className=' h4'>
-					<img className='br-100' src='http://www.doonexams.com/001/img/web-Design-Development.png' 
-					alt='Web web-Design-Development'  width={150} height={150}/>
+				<div className=' h4 mb2'>
+					<img className='br-2' src='http://www.doonexams.com/001/img/web-Design-Development.png' 
+					alt='Web web-Design-Development'  width={150} height={250}/>
 				</div>
 				<div>
 					<h3>Background Generator</h3>
