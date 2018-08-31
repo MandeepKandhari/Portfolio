@@ -1,5 +1,5 @@
 import React from 'react';
-import E-Commerce from './E-Commerce.PNG';
+import ECommerce from './ECommerce.PNG';
 import Facedetection from './Facedetection.PNG';
 //import './Work.css';
 
@@ -10,7 +10,7 @@ const Work=()=>{
 			<div className='flex flex-wrap justify-around card-col'>
 			<div className='flex flex-column items-center ma1-l ma2 pa2 shadow-5 grow card bw2 br3 w-30-l w-80 ba b--black'>
 				<div className='h4'>
-				<img className='br-100' src={E-Commerce}
+				<img className='br-100' src={ECommerce}
 				 alt='web-Design-Development' width={150} height={150} />
 				}
 			</div>
