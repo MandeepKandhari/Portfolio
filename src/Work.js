@@ -14,7 +14,7 @@ const Work=()=>{
 				 alt='web-Design-Development' width={250} height={150} />
 				
 			</div>
-			<div>
+			<div className='mt1'>
 				<h3>Voice Controlled E-Commerce Web Application</h3>
 				<p className='tj'>A voice-controlled system embedded in a web application can enhance user experience and will provide voice as a means to control the functionality of e-commerce websites.</p>
 			</div>
@@ -25,7 +25,7 @@ const Work=()=>{
 					<img className='br-2' src={Facedetection} 
 					alt='Data Analytics' width={250} height={150} />
 				</div>
-				<div>
+				<div className='mt1'>
 					<h3>Face Detection Web Application</h3>
 					<p className='tj'>face recognition web application that accepts image URLs as input, displays the images, and detects the human faces. A machine learning API “Clarifai” has been incorporated into the application, that is trained to detect human faces.</p>
 				</div>
@@ -35,7 +35,7 @@ const Work=()=>{
 					<img className='br-2' src='http://www.doonexams.com/001/img/web-Design-Development.png' 
 					alt='Web web-Design-Development'  width={250} height={150}/>
 				</div>
-				<div>
+				<div className='mt1'>
 					<h3>Background Generator</h3>
 					<p className='tj'>{`Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
 					Mauris augue ipsum, tempus vel egestas et, sollicitudin sed ligula. 
