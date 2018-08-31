@@ -1,6 +1,6 @@
 import React from 'react';
-import E-Commerce from './E-Commerce.png';
-import Facedetection from './Facedetection.png';
+import E-Commerce from './E-Commerce.PNG';
+import Facedetection from './Facedetection.PNG';
 //import './Work.css';
 
 const Work=()=>{
