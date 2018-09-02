@@ -13,10 +13,10 @@ const About=()=>{
 				<div className='br4 pa3 bg-green center intro'>
 					<h1 className='mt4'>Mandeep Singh Kandhari</h1>
 					<h3 >Front-End-Web developer</h3>
-					<p className='tj about_para'>{`An innovative and competent Masters computer engineering student,  
+					<p className='tj'>An innovative and competent Masters computer engineering student,  
 									 dedicated to build user-centric, high-impact dynamic, high-speed websites.
 				                     An enthusiastic computer geek focussed  about learning new state-of-the-art technologies
-				                     and implementing them in the projects.`}</p> 
+				                     and implementing them in the projects.</p> 
 				</div>
 			</div>                     
  	 	</div>
