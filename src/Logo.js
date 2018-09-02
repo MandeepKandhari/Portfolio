@@ -1,4 +1,5 @@
 import React from 'react';
+import Logos from './Logos.png';
 import './Logo.css';
 import FontAwesome from 'react-fontawesome';
 const Logo=()=>
@@ -6,7 +7,7 @@ const Logo=()=>
 	return(
 		<div className='ma0 pa0 shadow-5 bw3 flex justify-between'>
 			<div className='ma1 grow'>
-				<img className='br-100 image pv2  ml4-l ml3-ns pointer' src='https://seeklogo.com/images/M/mk-art-logo-8A04DDDF04-seeklogo.com.png' 
+				<img className='br-100 image pv2  ml4-l ml3-ns pointer' src={Logos} 
 				width={100} height={100} alt='logo' />
 			</div>
 			
