@@ -1,14 +1,14 @@
 import React from 'react';
 import ECommerce from './Ecommerce.PNG';
 import Facedetection from './Facedetection.PNG';
-//import './Work.css';
+import './Work.css';
 
 const Work=()=>{
 	return(
 		<div className='tc' id='work'>
 			<h1 className='tc f1-l pa3-l ma3-l'>Work</h1>
 			<div className='flex flex-wrap justify-around card-col'>
-			<div className='flex flex-column items-center ma1-l ma2 pa2 shadow-5 grow card bw2 br3 w-30-l w-80 ba b--black'>
+			<div className='flex flex-column items-center ma1-l ma2 pa2 shadow-5 grow card bw2 br3 w-30-l w-80 ba b--black bground'>
 				<div className='h4 mt1'>
 				<img className='br-2' src={ECommerce}
 				 alt='E-commerce web application' width={300} height={150} />
@@ -20,7 +20,7 @@ const Work=()=>{
 			</div>
 			</div>
 			
-			<div className='flex flex-column items-center ma1-l ma2 pa2 shadow-5 card grow bw2 br3 w-30-l w-80 ba b--black'>
+			<div className='flex flex-column items-center ma1-l ma2 pa2 shadow-5 card grow bw2 br3 w-30-l w-80 ba b--black bground'>
 				<div className='h4 mt1'>
 					<img className='br-2' src={Facedetection} 
 					alt='Face Detection web application' width={300} height={150} />
@@ -31,7 +31,7 @@ const Work=()=>{
 					A machine learning API “Clarifai” has been incorporated into the application, that is trained to detect human faces.</p>
 				</div>
 			</div>
-			<div className='flex flex-column items-center ma1-l ma2 pa2 shadow-5 grow card bw2 br3 w-30-l w-80 ba b--black'>
+			<div className='flex flex-column items-center ma1-l ma2 pa2 shadow-5 grow card bw2 br3 w-30-l w-80 ba b--black bground'>
 				<div className='h4 mt1'>
 					<img className='br-2' src='http://www.doonexams.com/001/img/web-Design-Development.png' 
 					alt='Web web-Design-Development'  width={300} height={150}/>
